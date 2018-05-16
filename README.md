@@ -6,6 +6,14 @@ Versão: 1.0
 
 Aplicativo desenvolvido como exemplo de como utilizar a API Google Place
 
+### Adicionando chave ###
+
+Antes de testar o aplicativo devemos criar a própria chave, para isso acesse [https://console.developers.google.com/]
+
+Nesta página navegue até a aba Biblioteca e ative os seguintes serviços: Places API, Places SDK for Android. 
+
+Agora basta criar uma nova chave e adicionar em values/google_maps_api
+
 ### Como fazer a busca ###
 
 Na versão atual a requisição de buscas só esta buscando palavras em inglês, exemplo:
